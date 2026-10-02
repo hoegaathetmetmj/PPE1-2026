@@ -1,0 +1,25 @@
+Exercice 1.a
+cat 2016/01/2016_01_01-001.ann
+echo "Annotations en 2016 :" > ../../PPE1-2026/Exercices/comptes.txt
+grep '^T' 2016/*/*.ann | wc -l >> ../../PPE1-2026/Exercices/comptes.txt
+echo "Annotations en 2017 :" >> ../../PPE1-2026/Exercices/comptes.txt
+grep '^T' 2017/*/*.ann | wc -l >> ../../PPE1-2026/Exercices/comptes.txt
+echo "Annotations en 2018 :" >> ../../PPE1-2026/Exercices/comptes.txt 
+grep '^T' 2018/*/*.ann | wc -l >> ../../PPE1-2026/Exercices/comptes.txt
+
+Exercice 1.b
+echo "Annotations en 2016 :" > ../../PPE1-2026/Exercices/locations.txt
+grep 'Location' 2016/*/*.ann | wc -l >> ../../PPE1-2026/Exercices/locations.txt
+echo "Annotations en 2017 :" >> ../../PPE1-2026/Exercices/locations.txt
+grep 'Location' 2017/*/*.ann | wc -l >> ../../PPE1-2026/Exercices/locations.txt
+echo "Annotations en 2018 :" >> ../../PPE1-2026/Exercices/locations.txt
+grep 'Location' 2018/*/*.ann | wc -l >> ../../PPE1-2026/Exercices/locations.txt
+
+Exercice 2.a
+touch ../../PPE1-2026/Exercices/classement_2016.txt  ../../PPE1-2026/Exercices/classement_2017.txt  ../../PPE1-2026/Exercices/classement_2018.txt
+grep 'Location' 2016/*/*.ann | cut -f3 | sort | uniq -c | sort -n | tail -15 > ../../PPE1-2026/Exercices/classement_2016.txt
+grep 'Location' 2017/*/*.ann | cut -f3 | sort | uniq -c | sort -n | tail -15 > ../../PPE1-2026/Exercices/classement_2017.txt
+grep 'Location' 2018/*/*.ann | cut -f3 | sort | uniq -c | sort -n | tail -15 > ../../PPE1-2026/Exercices/classement_2018.txt
+
+Exercice 2.b
+grep 'Location' 2016/03/*.ann 2017/03/*.ann 2018/03/*.ann | cut -f3 | sort | uniq -c | sort -n | tail -15
