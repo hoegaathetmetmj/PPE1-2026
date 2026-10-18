@@ -17,3 +17,5 @@ Pour classer les documents ou compter le nombre d’annotations pour différente
 ---
 
 Séance 3 / 14.10.26
+
+Cette ligne doit rester après correction
