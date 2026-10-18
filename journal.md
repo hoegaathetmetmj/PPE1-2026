@@ -1,6 +1,6 @@
 ## Journal de bord du projet encadré
 
-30.09.26
+Séance 1 / 30.09.26
 #### Cours
 - Mettre à jour le dépôt local avec les fichiers du cours à l'aide de `git pull`
 - Créer des dossiers et organiser un grand nombre de fichiers dans le terminal
@@ -12,3 +12,7 @@ En faisant l'exercice de pipeline, j’ai pu expérimenter le processus git pull
 
 #### Question
 Pour classer les documents ou compter le nombre d’annotations pour différentes années, j’ai trouvé qu’il y avait pas mal de tâches répétitives. Est-ce que c'est déconseillé d'utiliser des boucles ou des conditions dans le termianal ?
+
+---
+
+Séance 3 / 14.10.26
