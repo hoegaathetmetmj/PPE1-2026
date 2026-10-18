@@ -1,6 +1,5 @@
 ## Journal de bord du projet encadré
 
----
 30.09.26
 #### Cours
 - Mettre à jour le dépôt local avec les fichiers du cours à l'aide de `git pull`
