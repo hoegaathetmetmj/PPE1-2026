@@ -1,4 +1,3 @@
-Je m'ennuie
 ## Journal de bord du projet encadré
 
 Séance 1 / 30.09.26
@@ -17,5 +16,9 @@ Pour classer les documents ou compter le nombre d’annotations pour différente
 ---
 
 Séance 3 / 14.10.26
+### Exercice
+Exercice - git
+Je n’ai pas pu finir l’exercice git. Je suis bloquée sur l’exercice 2.b. En tenant compte du contexte, j’ai pensé qu’il fallait garder le dernier commit et défaire que le deuxième commit («I AM ERROR»). Mais lorsque j’ai fait un reset avec SHA de «I AM ERROR», je suis revenue au point où j’avais écrit la ligne qui devait être supprimée. Et si je fais un reset avec SHA du premier commit, je pourrais défaire «I AM ERROR», mais je risquerais d’annuler le dernier commit en même temps. Comme le tag *git-seance2-defaire* est lié aux exercices suivants, je me suis arrêté là, avant de tout rater.
 
-Cette ligne doit rester après correction
+Exercice - script
+Au début, j'avais écrit #!/usr/bin/bash comme shebang, mais le script ne marchait pas. Je me suis rendu compte qu'il fallait mettre #!/bin/bash après quelques recherches. Je ne sais pas si cela dépend du système d'exploitation (Mac) ou si c'est spécifique pour mon ordi. La dernière fois, je m'étais posé une question  concernant l'utilisation des boucles et j'ai résolu mon interrogation cette fois-ci.
