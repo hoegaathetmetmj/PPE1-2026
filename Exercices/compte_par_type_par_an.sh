@@ -1,5 +1,12 @@
 #!/bin/bash
 
+if [ "$#" -eq 1 ]
+then
+ echo "la condition est valide"
+else
+ echo "la condition n'est pas valide"
+fi
+
 ENTITE=$1
 
 echo "Annotations en 2016 :"

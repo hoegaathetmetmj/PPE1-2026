@@ -1,5 +1,12 @@
 #!/bin/bash
 
+if [ "$#" -eq 3 ]
+then
+ echo "la condition est valide"
+else
+ echo "la condition n'est pas valide"
+fi
+
 ANNEE=$1
 MOIS=$2
 NOMBRE=$3
