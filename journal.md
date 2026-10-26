@@ -1,3 +1,5 @@
+I AM ERROR
+
 ## Journal de bord du projet encadré
 
 Séance 1 / 30.09.26
