@@ -22,3 +22,5 @@ Je n’ai pas pu finir l’exercice git. Je suis bloquée sur l’exercice 2.b. 
 
 Exercice - script<br>
 Au début, j'avais écrit #!/usr/bin/bash comme shebang, mais le script ne marchait pas. Je me suis rendu compte qu'il fallait mettre #!/bin/bash après quelques recherches. Je ne sais pas si cela dépend du système d'exploitation (Mac) ou si c'est spécifique pour mon ordi. La dernière fois, je m'étais posé une question  concernant l'utilisation des boucles et j'ai résolu mon interrogation cette fois-ci.
+
+Je vais mettre cette ligne de côté.
