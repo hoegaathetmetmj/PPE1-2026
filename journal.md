@@ -23,4 +23,13 @@ Je n’ai pas pu finir l’exercice git. Je suis bloquée sur l’exercice 2.b. 
 Exercice - script<br>
 Au début, j'avais écrit #!/usr/bin/bash comme shebang, mais le script ne marchait pas. Je me suis rendu compte qu'il fallait mettre #!/bin/bash après quelques recherches. Je ne sais pas si cela dépend du système d'exploitation (Mac) ou si c'est spécifique pour mon ordi. La dernière fois, je m'étais posé une question  concernant l'utilisation des boucles et j'ai résolu mon interrogation cette fois-ci.
 
-Je vais mettre cette ligne de côté.
+---
+
+Séance 5 / 04.11.26
+#### Exercice
+Exercice - git (correction d'erreur)<br>
+Après la séance de la permanence, j'ai essayé de supprimer un commit intermédiaire avec la commande `git revert` et j'ai réussi.
+
+Exercice - miniprojet-1<br>
+Par rapport aux autres exercices sur le script, il fallait coder de manière plus compliquée, y compris une expression régulière(regex). J'ai cherché à mieux comprendre à quoi servent des arguments de `curl` et de `lynx`. Une fois que j'ai compris leurs usages, ce n'était pas si difficile de compléter le script en utilisant une boucle. Cependant, comme je ne maîtrise pas bien l'utilisation de regex, je me suis servie l'IA pour les écrire.
+
