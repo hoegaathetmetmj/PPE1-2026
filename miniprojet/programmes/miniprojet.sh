@@ -1,15 +1,23 @@
 #!/bin/bash
 
-if [ $# -lt 1 ]; then
-    echo "erreur: veuillez saisir le chemin du fichier en argument" >&2
+if [ $# -ne 2 ]; then
+    echo "erreur: veuillez saisir le chemin du fichier en argument et nom du fichier de sortie" >&2
     exit 1
 fi
 
-file=$1
+input_file=$1
+output_file=$2
+
 line_num=1
 
 while read -r line;
 do
-    echo -e "$line_num\t${line}"
+    http_code=$(curl -s -L -o /dev/null -w "%{http_code}" "$line")
+    encoding="UTF-8"
+    word_count="0"
+
+    echo -e "$line_num\t${line}\t${http_code}\t${encoding}\t${word_count}" >> ../tableaux/"$output_file"
     line_num=$((line_num + 1))
-done < "$file"
+done < "$input_file"
+
+echo "Traitement terminé !"
